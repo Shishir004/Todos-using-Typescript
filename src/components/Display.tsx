@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 const Display:React.FC<{text:string, DeleteTodo:()=>void}>= (props) => {
   return (
     <>
